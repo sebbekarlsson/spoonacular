@@ -5,7 +5,7 @@ spoon = Spoonacular()
 
 
 def test_get_recipes_by_ingridients():
-    recipes = spoon.get_recipes_by_ingridients([
+    recipes = spoon.get_recipes_by_ingredients([
         '4 carrots',
         '1kg potatoes',
         '1kg salt',

@@ -1,8 +1,8 @@
 # spoonacular recipes python port
-> Get recipes by ingridients
+> Get recipes by ingredients
 
 ## Usage
-> To get recipes by ingridients:
+> To get recipes by ingredients:
 
     from spoonacular import Spoonacular
 
@@ -10,7 +10,7 @@
     spoon = Spoonacular()
 
 
-    recipes = spoon.get_recipes_by_ingridients([
+    recipes = spoon.get_recipes_by_ingredients([
         '4 carrots',
         '1kg potatoes',
         '1kg salt',

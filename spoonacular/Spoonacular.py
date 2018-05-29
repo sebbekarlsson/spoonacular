@@ -10,13 +10,13 @@ class Spoonacular(object):
         self.website = 'https://spoonacular.com'
         self.base_url = self.website + '/search'
 
-    def get_recipes_by_ingridients(self, ingridients):
+    def get_recipes_by_ingredients(self, ingredients):
         endpoint = self.base_url + '/findByIngredients'
 
         items = []
 
         data = {
-            'ingredientList': '\n'.join(ingridients),
+            'ingredientList': '\n'.join(ingredients),
             'number': 25,
             'ranking': 1,
             'onlyOpenLicense': False
