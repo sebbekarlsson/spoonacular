@@ -1,6 +1,7 @@
 from requests import Session
 from bs4 import BeautifulSoup
 from urlparse import urljoin
+import re
 
 
 class Spoonacular(object):
@@ -34,6 +35,9 @@ class Spoonacular(object):
             item['name'] = _item.find('h4').text
             item['link'] = urljoin(self.website, _item.find('a').get('href'))
             item['info'] = _item.find('span').text
+            item['image'] = _item.find('div', {'class': 'img'}).get('style')
+            item['image'] = re.findall('url.*?\((.*?)\)', item['image'])
+            item['image'] = item['image'][0] if item['image'] else None
 
             items.append(item)
 

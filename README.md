@@ -25,6 +25,7 @@
            "id": id-of-recipe,
            "name": name-of-recipe,
            "link": link-to-recipe,
-           "info": "Uses 4, misses 2"
+           "info": "Uses 4, misses 2",
+           "image": link-to-image
         }
     ]
