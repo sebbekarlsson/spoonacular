@@ -4,8 +4,8 @@ from spoonacular import Spoonacular
 spoon = Spoonacular()
 
 
-def test_get_recepies_by_ingridients():
-    recepies = spoon.get_recepies_by_ingridients([
+def test_get_recipes_by_ingridients():
+    recipes = spoon.get_recipes_by_ingridients([
         '4 carrots',
         '1kg potatoes',
         '1kg salt',
@@ -13,5 +13,5 @@ def test_get_recepies_by_ingridients():
         '1kg pasta'
     ])
 
-    assert isinstance(recepies, list)
-    assert len(recepies) > 0
+    assert isinstance(recipes, list)
+    assert len(recipes) > 0

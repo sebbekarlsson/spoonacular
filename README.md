@@ -1,8 +1,8 @@
-# spoonacular recepie python port
-> Get recepies by ingridients
+# spoonacular recipes python port
+> Get recipes by ingridients
 
 ## Usage
-> To get recepies by ingridients:
+> To get recipes by ingridients:
 
     from spoonacular import Spoonacular
 
@@ -10,7 +10,7 @@
     spoon = Spoonacular()
 
 
-    recepies = spoon.get_recepies_by_ingridients([
+    recipes = spoon.get_recipes_by_ingridients([
         '4 carrots',
         '1kg potatoes',
         '1kg salt',
@@ -22,9 +22,9 @@
 
     [
         {
-           "id": id-of-recepie,
-           "name": name-of-recepie,
-           "link": link-to-recepie,
+           "id": id-of-recipe,
+           "name": name-of-recipe,
+           "link": link-to-recipe,
            "info": "Uses 4, misses 2"
         }
     ]

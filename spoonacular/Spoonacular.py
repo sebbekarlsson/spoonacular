@@ -10,7 +10,7 @@ class Spoonacular(object):
         self.website = 'https://spoonacular.com'
         self.base_url = self.website + '/search'
 
-    def get_recepies_by_ingridients(self, ingridients):
+    def get_recipes_by_ingridients(self, ingridients):
         endpoint = self.base_url + '/findByIngredients'
 
         items = []
