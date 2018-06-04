@@ -29,3 +29,12 @@
            "image": link-to-image
         }
     ]
+
+## Installation
+> Clone down repository and run:
+
+    python setup.py install
+
+> OR through pip:
+
+    pip install spoonacular
