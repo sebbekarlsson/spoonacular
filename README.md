@@ -1,6 +1,9 @@
 # spoonacular recipes python port
 > Get recipes by ingredients
 
+> I do encourage you to use the one `johnwmillr` wrote instead:  
+> [https://github.com/johnwmillr/SpoonacularAPI](https://github.com/johnwmillr/SpoonacularAPI)
+
 ## Usage
 > To get recipes by ingredients:
 
@@ -34,7 +37,3 @@
 > Clone down repository and run:
 
     python setup.py install
-
-> OR through pip:
-
-    pip install spoonacular
